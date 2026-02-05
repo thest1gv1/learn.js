@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="28.01Learnjs">
-      <change afterPath="$PROJECT_DIR$/Objects/Objects4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/Example.md" afterDir="false" />
+    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="05.02Learnjs">
+      <change afterPath="$PROJECT_DIR$/Objects/calculator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Objects4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Objects4.1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
       <workItem from="1769923951813" duration="2957000" />
       <workItem from="1769927548013" duration="16550000" />
       <workItem from="1770022514823" duration="15487000" />
-      <workItem from="1770271519764" duration="2851000" />
+      <workItem from="1770271519764" duration="15744000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -129,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769609251152</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="05.02Learnjs">
+      <option name="closed" value="true" />
+      <created>1770274598622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770274598622</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22.01Learnjs" />
     <MESSAGE value="28.01Learnjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.01Learnjs" />
+    <MESSAGE value="05.02Learnjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.02Learnjs" />
   </component>
 </project>

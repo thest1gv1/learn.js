@@ -297,6 +297,52 @@ const account = {
 account.getBalance().withdraw(500).deposit(200);
 
 
+// Задача: «Прямоугольник»
+//
+// Создай объект rectangle со свойствами:
+//
+//   width — ширина (число)
+//
+// height — высота (число)
+//
+// И с методами/геттерами/сеттерами:
+//
+// Геттер area — возвращает площадь прямоугольника (width * height)
+//
+// Сеттер area — при присвоении нового значения площади меняет width, оставляя height без изменений
+//
+// Метод log() — выводит в консоль: Ширина: X, Высота: Y, Площадь: Z
+//
+// Все методы должны использовать this и работать через объект
+
+
+const rectangle = {
+  width: 10,
+  height: 10,
+
+
+  get square() {
+    return this.width * this.height
+  },
+
+  set square(newWidth) {
+     this.width = newWidth
+  },
+
+  log() {
+    console.log('Ширина:', this.width)
+    console.log('Высота:', this.height)
+    console.log('Площадь:', this.square)
+  },
+}
+
+rectangle.log()
+
+rectangle.square = 50
+
+rectangle.log()
+
+
 
 
 

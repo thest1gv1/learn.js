@@ -316,35 +316,35 @@ account.getBalance().withdraw(500).deposit(200);
 // Все методы должны использовать this и работать через объект
 
 
-const rectangle = {
-  width: 10,
-  height: 10,
+// const rectangle = {
+//   width: 10,
+//   height: 10,
+//
+//
+//   get square() {
+//     return this.width * this.height
+//   },
+//
+//   set square(newWidth) {
+//      this.width = newWidth
+//   },
+//
+//   log() {
+//     console.log('Ширина:', this.width)
+//     console.log('Высота:', this.height)
+//     console.log('Площадь:', this.square)
+//   },
+// }
+//
+// rectangle.log()
+//
+// rectangle.square = 50
+//
+// rectangle.log()
 
 
-  get square() {
-    return this.width * this.height
-  },
 
-  set square(newWidth) {
-     this.width = newWidth
-  },
-
-  log() {
-    console.log('Ширина:', this.width)
-    console.log('Высота:', this.height)
-    console.log('Площадь:', this.square)
-  },
-}
-
-rectangle.log()
-
-rectangle.square = 50
-
-rectangle.log()
-
-
-
-
+//
 
 
 

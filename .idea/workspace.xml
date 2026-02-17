@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="05.02Learnjs">
-      <change afterPath="$PROJECT_DIR$/Objects/objects4.5 - 4.8.js" afterDir="false" />
+    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="10.02Learnjs">
+      <change afterPath="$PROJECT_DIR$/array/Методы массивов5.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Objects4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Objects4.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/objects4.5 - 4.8.js" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/objects4.5 - 4.8.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,8 @@
     "Node.js.Objects4.1.js.executor": "Run",
     "Node.js.objects4.5 - 4.8.js.executor": "Run",
     "Node.js.objects4.5.js.executor": "Run",
+    "Node.js.test.js.executor": "Run",
+    "Node.js.Методы массивов5.5.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -64,8 +67,8 @@
       <recent name="C:\Users\Александр\Documents\learn.js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.objects4.5 - 4.8.js">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn.js/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="Node.js.Методы массивов5.5.js">
+    <configuration name="Методы массивов5.5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array/Методы массивов5.5.js" working-dir="$PROJECT_DIR$/array">
       <method v="2" />
     </configuration>
     <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chapter3/3.js" working-dir="$PROJECT_DIR$/chapter3">
@@ -77,12 +80,16 @@
     <configuration name="objects4.5 - 4.8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/objects4.5 - 4.8.js" working-dir="$PROJECT_DIR$/Objects">
       <method v="2" />
     </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Методы массивов5.5.js" />
+        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.objects4.5 - 4.8.js" />
         <item itemvalue="Node.js.Objects4.1.js" />
         <item itemvalue="Node.js.3.js" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +115,10 @@
       <workItem from="1770022514823" duration="15487000" />
       <workItem from="1770271519764" duration="16562000" />
       <workItem from="1770620876975" duration="2378000" />
-      <workItem from="1770708840177" duration="16232000" />
+      <workItem from="1770708840177" duration="16893000" />
+      <workItem from="1770991534438" duration="9000" />
+      <workItem from="1771053037908" duration="765000" />
+      <workItem from="1771313328069" duration="18799000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -158,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770298612085</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="10.02Learnjs">
+      <option name="closed" value="true" />
+      <created>1770734325519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770734325519</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +186,7 @@
     <MESSAGE value="22.01Learnjs" />
     <MESSAGE value="28.01Learnjs" />
     <MESSAGE value="05.02Learnjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="05.02Learnjs" />
+    <MESSAGE value="10.02Learnjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.02Learnjs" />
   </component>
 </project>

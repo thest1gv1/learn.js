@@ -200,18 +200,20 @@ console.log(counter * 2)
 //
 // Пример:
 
-const magic = {
-  [Symbol.toPrimitive](hint) {
-    if (hint === "string") {
-      return 'Magic'
-    }
-    if (hint === "number") {
-      return 42
-    }
-    return true
-  }
-}
+// const magic = {
+//   [Symbol.toPrimitive](hint) {
+//     if (hint === "string") {
+//       return 'Magic'
+//     }
+//     if (hint === "number") {
+//       return 42
+//     }
+//     return true
+//   }
+// }
+//
+// console.log(`${magic}`)
+// console.log(+magic)
+// console.log(magic == true)
 
-console.log(`${magic}`)
-console.log(+magic)
-console.log(magic == true)
+

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="10.02Learnjs">
-      <change afterPath="$PROJECT_DIR$/array/Методы массивов5.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="17.02Learnjs">
+      <change afterPath="$PROJECT_DIR$/array/Перебираемые объекты 5.6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codewars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/objects4.5 - 4.8.js" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/objects4.5 - 4.8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/Методы массивов5.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/array/Методы массивов5.5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,9 @@
     &quot;accountId&quot;: &quot;56d2c6cf-2393-4f83-a034-f26d40e967d8&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -38,30 +41,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.3.js.executor": "Run",
-    "Node.js.Objects4.1.js.executor": "Run",
-    "Node.js.objects4.5 - 4.8.js.executor": "Run",
-    "Node.js.objects4.5.js.executor": "Run",
-    "Node.js.test.js.executor": "Run",
-    "Node.js.Методы массивов5.5.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Александр/Documents/learn.js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.3.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Objects4.1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.codewars.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.objects4.5 - 4.8.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.objects4.5.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Методы массивов5.5.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Александр/Documents/learn.js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Александр\Documents\learn.js" />
@@ -77,16 +81,16 @@
     <configuration name="Objects4.1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/Objects4.1.js" working-dir="$PROJECT_DIR$/Objects">
       <method v="2" />
     </configuration>
-    <configuration name="objects4.5 - 4.8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/objects4.5 - 4.8.js" working-dir="$PROJECT_DIR$/Objects">
+    <configuration name="codewars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codewars.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+    <configuration name="objects4.5 - 4.8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/objects4.5 - 4.8.js" working-dir="$PROJECT_DIR$/Objects">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.Методы массивов5.5.js" />
-        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.codewars.js" />
         <item itemvalue="Node.js.objects4.5 - 4.8.js" />
         <item itemvalue="Node.js.Objects4.1.js" />
         <item itemvalue="Node.js.3.js" />
@@ -118,7 +122,13 @@
       <workItem from="1770708840177" duration="16893000" />
       <workItem from="1770991534438" duration="9000" />
       <workItem from="1771053037908" duration="765000" />
-      <workItem from="1771313328069" duration="18799000" />
+      <workItem from="1771313328069" duration="29918000" />
+      <workItem from="1771415801170" duration="9952000" />
+      <workItem from="1771502274780" duration="15009000" />
+      <workItem from="1771658042743" duration="1722000" />
+      <workItem from="1771739157005" duration="9346000" />
+      <workItem from="1771838543895" duration="2016000" />
+      <workItem from="1771925733331" duration="10474000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -176,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770734325519</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="17.02Learnjs">
+      <option name="closed" value="true" />
+      <created>1771338855198</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771338855198</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +205,7 @@
     <MESSAGE value="28.01Learnjs" />
     <MESSAGE value="05.02Learnjs" />
     <MESSAGE value="10.02Learnjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.02Learnjs" />
+    <MESSAGE value="17.02Learnjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.02Learnjs" />
   </component>
 </project>

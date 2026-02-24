@@ -317,19 +317,41 @@ const nums5 = [1, 2, 2, 3, 3, 3, 3, 3];
 
 const countNums5 = nums5.reduce((acc, currentValue) => {
 
-  if (acc[currentValue]) {
-    acc[currentValue] += 1
-  } else {
-    acc[currentValue] = 1
-  }
-  return acc
-}, {})
+    if (acc[currentValue]) {
+      acc[currentValue] += 1
+    } else {
+      acc[currentValue] = 1
+    }
+    return acc
+  }, {})
 
-console.log(countNums5)
-
-
+// console.log(countNums5)
 
 
+// 🧩 Задача: Найти имена подходящих пользователей
+//
+// Есть массив пользователей:
+
+;
+// Нужно получить массив имён, которые:
+//
+// старше 18
+//
+// активны (isActive === true)
+
+
+const users6 = [
+  {name: "Alex", age: 17, isActive: true},
+  {name: "Bob", age: 25, isActive: false},
+  {name: "Clara", age: 30, isActive: true},
+  {name: "Dan", age: 16, isActive: true}
+]
+
+const adultActiveUsers = users6
+  .filter((user) => user.age > 18 && user.isActive === true)
+  .map((user) => user.name)
+
+// console.log(adultActiveUsers)
 
 
 

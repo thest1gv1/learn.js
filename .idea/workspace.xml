@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="17.02Learnjs">
-      <change afterPath="$PROJECT_DIR$/array/Перебираемые объекты 5.6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codewars.js" afterDir="false" />
+    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="24.02Learnjs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/array/Методы массивов5.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/array/Методы массивов5.5.js" afterDir="false" />
     </list>
@@ -128,7 +126,7 @@
       <workItem from="1771658042743" duration="1722000" />
       <workItem from="1771739157005" duration="9346000" />
       <workItem from="1771838543895" duration="2016000" />
-      <workItem from="1771925733331" duration="10474000" />
+      <workItem from="1771925733331" duration="11921000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -194,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771338855198</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="24.02Learnjs">
+      <option name="closed" value="true" />
+      <created>1771947685471</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771947685471</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +212,7 @@
     <MESSAGE value="05.02Learnjs" />
     <MESSAGE value="10.02Learnjs" />
     <MESSAGE value="17.02Learnjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="17.02Learnjs" />
+    <MESSAGE value="24.02Learnjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.02Learnjs" />
   </component>
 </project>

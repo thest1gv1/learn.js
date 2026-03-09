@@ -161,3 +161,8 @@ const usersCity = [
 ];
 
 console.log(usersCity)
+
+const user = { name: "Alice", age: 25 };
+console.log(user.age); // 25
+
+

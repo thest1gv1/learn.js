@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="24.02Learnjs">
+      <change afterPath="$PROJECT_DIR$/Objects/5.10ДеструктурирующееПрисваивание.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/5.11DateAndTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/5.12JSONtoJSON.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/5.9 Object.keys,values,entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/calculator.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/array/Методы массивов5.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/array/Методы массивов5.5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/Перебираемые объекты 5.6.js" beforeDir="false" afterPath="$PROJECT_DIR$/array/Перебираемые объекты 5.6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,59 +47,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.3.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Objects4.1.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.codewars.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.objects4.5 - 4.8.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.objects4.5.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Методы массивов5.5.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Александр/Documents/learn.js&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.3.js.executor": "Run",
+    "Node.js.5.11DateAndTime.js.executor": "Run",
+    "Node.js.5.12JSONtoJSON.js.executor": "Run",
+    "Node.js.5.9 Object.keys,values,entries.js.executor": "Run",
+    "Node.js.5.9ДеструктурирующееПрисваивание.js.executor": "Run",
+    "Node.js.DateAndTime.js.executor": "Run",
+    "Node.js.Objects4.1.js.executor": "Run",
+    "Node.js.codewars.js.executor": "Run",
+    "Node.js.homeWork.js.executor": "Run",
+    "Node.js.objects4.5 - 4.8.js.executor": "Run",
+    "Node.js.objects4.5.js.executor": "Run",
+    "Node.js.test.js.executor": "Run",
+    "Node.js.Методы массивов5.5.js.executor": "Run",
+    "Node.js.Перебираемые объекты 5.6.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Александр/Documents/learn.js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Александр\Documents\learn.js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Методы массивов5.5.js">
-    <configuration name="Методы массивов5.5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array/Методы массивов5.5.js" working-dir="$PROJECT_DIR$/array">
+  <component name="RunManager" selected="Node.js.5.12JSONtoJSON.js">
+    <configuration name="5.10ДеструктурирующееПрисваивание.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/5.10ДеструктурирующееПрисваивание.js" working-dir="$PROJECT_DIR$/Objects">
       <method v="2" />
     </configuration>
-    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chapter3/3.js" working-dir="$PROJECT_DIR$/chapter3">
+    <configuration name="5.11DateAndTime.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/5.11DateAndTime.js" working-dir="$PROJECT_DIR$/Objects">
       <method v="2" />
     </configuration>
-    <configuration name="Objects4.1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/Objects4.1.js" working-dir="$PROJECT_DIR$/Objects">
+    <configuration name="5.12JSONtoJSON.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/5.12JSONtoJSON.js" working-dir="$PROJECT_DIR$/Objects">
       <method v="2" />
     </configuration>
-    <configuration name="codewars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codewars.js" working-dir="$PROJECT_DIR$">
+    <configuration name="5.9 Object.keys,values,entries.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/5.9 Object.keys,values,entries.js" working-dir="$PROJECT_DIR$/Objects">
       <method v="2" />
     </configuration>
-    <configuration name="objects4.5 - 4.8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/objects4.5 - 4.8.js" working-dir="$PROJECT_DIR$/Objects">
+    <configuration name="homeWork.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homeWork.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.Методы массивов5.5.js" />
-        <item itemvalue="Node.js.codewars.js" />
-        <item itemvalue="Node.js.objects4.5 - 4.8.js" />
-        <item itemvalue="Node.js.Objects4.1.js" />
-        <item itemvalue="Node.js.3.js" />
+        <item itemvalue="Node.js.5.12JSONtoJSON.js" />
+        <item itemvalue="Node.js.5.11DateAndTime.js" />
+        <item itemvalue="Node.js.homeWork.js" />
+        <item itemvalue="Node.js.5.10ДеструктурирующееПрисваивание.js" />
+        <item itemvalue="Node.js.5.9 Object.keys,values,entries.js" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +141,18 @@
       <workItem from="1771658042743" duration="1722000" />
       <workItem from="1771739157005" duration="9346000" />
       <workItem from="1771838543895" duration="2016000" />
-      <workItem from="1771925733331" duration="11921000" />
+      <workItem from="1771925733331" duration="15402000" />
+      <workItem from="1772015623106" duration="5905000" />
+      <workItem from="1772092235180" duration="28000" />
+      <workItem from="1772440524883" duration="16151000" />
+      <workItem from="1772486036627" duration="342000" />
+      <workItem from="1772558259394" duration="7189000" />
+      <workItem from="1772640437373" duration="782000" />
+      <workItem from="1772708182214" duration="7538000" />
+      <workItem from="1772796701561" duration="9066000" />
+      <workItem from="1772817987416" duration="4123000" />
+      <workItem from="1773035089484" duration="21784000" />
+      <workItem from="1773065045369" duration="4847000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -200,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771947685471</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="24.02Learnjs">
+      <option name="closed" value="true" />
+      <created>1771949393331</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771949393331</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

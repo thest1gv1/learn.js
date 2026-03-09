@@ -354,5 +354,49 @@ const adultActiveUsers = users6
 // console.log(adultActiveUsers)
 
 
+//Убрать дубликаты
+
+const arr11 = [1, 122, 122, 4, 5, 155, 155, 7, 8, 9];
+
+
+function removeDuplicates(arr) {
+
+  return arr.filter((n, index) => {
+    if (index === arr.indexOf(n)) {
+      return n
+    } else {
+      return null
+    }
+  })
+}
+
+console.log(removeDuplicates(arr11))
+
+
+function removeDuplicatesFor(arr) {
+
+  const result = []
+
+  for (let i = 0; i < arr.length; i++) {
+    let x = arr[i]
+    let unique = true
+
+    for (let j = 0; j < result.length; j++) {
+      if (x === result[j]) {
+        unique = false
+        break
+      }
+    }
+
+    if (unique) {
+      result.push(x)
+    }
+  }
+
+  return result
+
+}
+
+console.log(removeDuplicatesFor(arr11))
 
 

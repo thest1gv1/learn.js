@@ -165,6 +165,154 @@ function minMax(arr) {
   return [min, max];
 }
 
-console.log(minMax([1, 2, 3, 4, 5]))
+// console.log(minMax([1, 2, 3, 4, 5]))
 
 
+function createHelloWorld() {
+
+  return function (...arg) {
+
+    return 'hello World'
+
+
+  }
+
+
+}
+
+const f = createHelloWorld();
+
+// console.log(f('das'))
+
+
+// Сумма с помощью замыканий
+// важность: 4
+// Напишите функцию sum, которая работает таким образом: sum(a)(b) = a+b.
+//
+//   Да, именно таким образом, используя двойные круглые скобки (не опечатка).
+//
+// Например:
+//
+//   sum(1)(2) = 3
+// sum(5)(-1) = 4
+
+
+const sum = (a) => {
+
+  return function (b) {
+    return a + b
+  }
+}
+
+// console.log(sum(6)(2))
+
+
+// Сортировать по полю
+// важность: 5
+// У нас есть массив объектов, который нужно отсортировать:
+//
+//   let users = [
+//     { name: "Иван", age: 20, surname: "Иванов" },
+//     { name: "Пётр", age: 18, surname: "Петров" },
+//     { name: "Анна", age: 19, surname: "Каренина" }
+//   ];
+// Обычный способ был бы таким:
+//
+// // по имени (Анна, Иван, Пётр)
+//   users.sort((a, b) => a.name > b.name ? 1 : -1);
+//
+// // по возрасту (Пётр, Анна, Иван)
+// users.sort((a, b) => a.age > b.age ? 1 : -1);
+// Можем ли мы сделать его короче, например вот таким?
+//
+//   users.sort(byField('name'));
+// users.sort(byField('age'));
+// То есть чтобы вместо функции мы просто писали byField(fieldName).
+//
+//   Напишите функцию byField, которая может быть использована для этого.
+
+let userss = [
+  {name: "Аван", age: 20, surname: "Иванов"},
+  {name: "Вётр", age: 18, surname: "Петров"},
+  {name: "Бнна", age: 19, surname: "Каренина"}
+];
+
+
+const byField = (field) => {
+  return (a, b) => a[field] > b[field] ? 1 : -1
+}
+
+// console.log(userss.sort(byField('age')))
+
+
+// Армия функций
+// важность: 5
+// Следующий код создаёт массив из стрелков (shooters).
+//
+//   Каждая функция предназначена выводить их порядковые номера. Но что-то пошло не так…
+
+function makeArmy() {
+  let shooters = [];
+
+  let i = 0;
+  while (i < 10) {
+    let j = i
+    let shooter = function () { // функция shooter
+      // console.log( j  ); // должна выводить порядковый номер
+
+    };
+    shooters.push(shooter); // и добавлять стрелка в массив
+    i++;
+
+  }
+
+  // ...а в конце вернуть массив из всех стрелков
+  return shooters;
+}
+
+let army = makeArmy();
+
+// все стрелки выводят 10 вместо их порядковых номеров (0, 1, 2, 3...)
+army[0](); // 10 от стрелка с порядковым номером 0
+army[1](); // 10 от стрелка с порядковым номером 1
+army[2](); // 10 ...и т.д.
+
+
+function makeCounter() {
+  let count = 0;
+
+  function counter() {
+    return count++
+  }
+
+  counter.set = function (value) {
+    count = value
+  }
+
+  counter.decrease = function () {
+    return count--
+  }
+
+  return counter
+
+}
+
+
+let count = makeCounter();
+
+count.set(10)
+console.log(count()); // 0
+console.log(count()); // 0
+console.log(count()); // 0
+count.decrease()
+console.log(count()); // 0
+console.log(count()); // 0
+
+//
+
+//
+// console.log(counter()); // 10
+//
+// counter.decrease(); // уменьшить значение счётчика на 1
+//
+// console.log(counter()); // 10 (вместо 11)

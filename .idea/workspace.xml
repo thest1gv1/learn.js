@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="24.02Learnjs">
-      <change afterPath="$PROJECT_DIR$/Objects/5.10ДеструктурирующееПрисваивание.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Objects/5.11DateAndTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Objects/5.12JSONtoJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Objects/5.9 Object.keys,values,entries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeWork.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Продвинутая работа с функциями/setTimeoutsetInterval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Продвинутая работа с функциями/ЗадачиОтGpt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Продвинутая работа с функциями/Остаточные параметры и оператор расширения.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/calculator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/Методы массивов5.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/array/Методы массивов5.5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/Перебираемые объекты 5.6.js" beforeDir="false" afterPath="$PROJECT_DIR$/array/Перебираемые объекты 5.6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeWork.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +58,11 @@
     "Node.js.homeWork.js.executor": "Run",
     "Node.js.objects4.5 - 4.8.js.executor": "Run",
     "Node.js.objects4.5.js.executor": "Run",
+    "Node.js.setTimeoutsetInterval.js.executor": "Run",
     "Node.js.test.js.executor": "Run",
+    "Node.js.ЗадачиОтGpt.js.executor": "Run",
     "Node.js.Методы массивов5.5.js.executor": "Run",
+    "Node.js.Остаточные параметры и оператор расширения.js.executor": "Run",
     "Node.js.Перебираемые объекты 5.6.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -84,29 +83,29 @@
       <recent name="C:\Users\Александр\Documents\learn.js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.5.12JSONtoJSON.js">
-    <configuration name="5.10ДеструктурирующееПрисваивание.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/5.10ДеструктурирующееПрисваивание.js" working-dir="$PROJECT_DIR$/Objects">
+  <component name="RunManager" selected="Node.js.ЗадачиОтGpt.js">
+    <configuration name="Остаточные параметры и оператор расширения.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Продвинутая работа с функциями/Остаточные параметры и оператор расширения.js" working-dir="$PROJECT_DIR$/Продвинутая работа с функциями">
       <method v="2" />
     </configuration>
-    <configuration name="5.11DateAndTime.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/5.11DateAndTime.js" working-dir="$PROJECT_DIR$/Objects">
+    <configuration name="ЗадачиОтGpt.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Продвинутая работа с функциями/ЗадачиОтGpt.js" working-dir="$PROJECT_DIR$/Продвинутая работа с функциями">
       <method v="2" />
     </configuration>
-    <configuration name="5.12JSONtoJSON.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/5.12JSONtoJSON.js" working-dir="$PROJECT_DIR$/Objects">
-      <method v="2" />
-    </configuration>
-    <configuration name="5.9 Object.keys,values,entries.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Objects/5.9 Object.keys,values,entries.js" working-dir="$PROJECT_DIR$/Objects">
+    <configuration name="codewars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codewars.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="homeWork.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homeWork.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="setTimeoutsetInterval.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Продвинутая работа с функциями/setTimeoutsetInterval.js" working-dir="$PROJECT_DIR$/Продвинутая работа с функциями">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.5.12JSONtoJSON.js" />
-        <item itemvalue="Node.js.5.11DateAndTime.js" />
+        <item itemvalue="Node.js.ЗадачиОтGpt.js" />
+        <item itemvalue="Node.js.Остаточные параметры и оператор расширения.js" />
+        <item itemvalue="Node.js.setTimeoutsetInterval.js" />
         <item itemvalue="Node.js.homeWork.js" />
-        <item itemvalue="Node.js.5.10ДеструктурирующееПрисваивание.js" />
-        <item itemvalue="Node.js.5.9 Object.keys,values,entries.js" />
+        <item itemvalue="Node.js.codewars.js" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +151,14 @@
       <workItem from="1772796701561" duration="9066000" />
       <workItem from="1772817987416" duration="4123000" />
       <workItem from="1773035089484" duration="21784000" />
-      <workItem from="1773065045369" duration="4847000" />
+      <workItem from="1773065045369" duration="5475000" />
+      <workItem from="1773475954478" duration="2225000" />
+      <workItem from="1773748273466" duration="1621000" />
+      <workItem from="1773771839456" duration="6992000" />
+      <workItem from="1773825437448" duration="13437000" />
+      <workItem from="1774104238252" duration="2184000" />
+      <workItem from="1774153813753" duration="35000" />
+      <workItem from="1774431544070" duration="10141000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -234,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771949393331</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="24.02Learnjs">
+      <option name="closed" value="true" />
+      <created>1773070995184</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1773070995184</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

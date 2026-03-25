@@ -22,3 +22,16 @@ for (let i = 0; i < arr1.length; i++) {
     set.add(arr1[i]);
   }
 }
+
+
+
+
+
+function test(n) {
+  if (n === 0) return;
+  console.log(n);
+  test(n - 1);
+  console.log(n * 2);
+}
+
+test(2);

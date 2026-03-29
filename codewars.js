@@ -301,12 +301,12 @@ function makeCounter() {
 let count = makeCounter();
 
 count.set(10)
-console.log(count()); // 0
-console.log(count()); // 0
-console.log(count()); // 0
-count.decrease()
-console.log(count()); // 0
-console.log(count()); // 0
+// console.log(count()); // 0
+// console.log(count()); // 0
+// console.log(count()); // 0
+// count.decrease()
+// console.log(count()); // 0
+// console.log(count()); // 0
 
 //
 
@@ -316,3 +316,4 @@ console.log(count()); // 0
 // counter.decrease(); // уменьшить значение счётчика на 1
 //
 // console.log(counter()); // 10 (вместо 11)
+

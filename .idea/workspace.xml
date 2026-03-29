@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="25.03Learnjs" />
+    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="25.03Learnjs">
+      <change afterPath="$PROJECT_DIR$/codewars29.03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Продвинутая работа с функциями/ЗадачиОтGpt.js" beforeDir="false" afterPath="$PROJECT_DIR$/Продвинутая работа с функциями/ЗадачиОтGpt.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +53,7 @@
     "Node.js.DateAndTime.js.executor": "Run",
     "Node.js.Objects4.1.js.executor": "Run",
     "Node.js.codewars.js.executor": "Run",
+    "Node.js.codewars29.03.js.executor": "Run",
     "Node.js.homeWork.js.executor": "Run",
     "Node.js.objects4.5 - 4.8.js.executor": "Run",
     "Node.js.objects4.5.js.executor": "Run",
@@ -76,17 +82,17 @@
       <recent name="C:\Users\Александр\Documents\learn.js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.ЗадачиОтGpt.js">
+  <component name="RunManager" selected="Node.js.codewars29.03.js">
     <configuration name="Остаточные параметры и оператор расширения.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Продвинутая работа с функциями/Остаточные параметры и оператор расширения.js" working-dir="$PROJECT_DIR$/Продвинутая работа с функциями">
       <method v="2" />
     </configuration>
     <configuration name="ЗадачиОтGpt.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Продвинутая работа с функциями/ЗадачиОтGpt.js" working-dir="$PROJECT_DIR$/Продвинутая работа с функциями">
       <method v="2" />
     </configuration>
-    <configuration name="codewars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codewars.js" working-dir="$PROJECT_DIR$">
+    <configuration name="codewars29.03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codewars29.03.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="homeWork.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homeWork.js" working-dir="$PROJECT_DIR$">
+    <configuration name="codewars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codewars.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="setTimeoutsetInterval.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Продвинутая работа с функциями/setTimeoutsetInterval.js" working-dir="$PROJECT_DIR$/Продвинутая работа с функциями">
@@ -94,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.codewars29.03.js" />
+        <item itemvalue="Node.js.codewars.js" />
         <item itemvalue="Node.js.ЗадачиОтGpt.js" />
         <item itemvalue="Node.js.Остаточные параметры и оператор расширения.js" />
         <item itemvalue="Node.js.setTimeoutsetInterval.js" />
-        <item itemvalue="Node.js.homeWork.js" />
-        <item itemvalue="Node.js.codewars.js" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +157,9 @@
       <workItem from="1773825437448" duration="13437000" />
       <workItem from="1774104238252" duration="2184000" />
       <workItem from="1774153813753" duration="35000" />
-      <workItem from="1774431544070" duration="10449000" />
+      <workItem from="1774431544070" duration="11130000" />
+      <workItem from="1774518932654" duration="9578000" />
+      <workItem from="1774782658435" duration="8231000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -249,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774450723388</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="25.03Learnjs">
+      <option name="closed" value="true" />
+      <created>1774450749682</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1774450749682</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

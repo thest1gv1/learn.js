@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="29.03Learnjs">
+      <change afterPath="$PROJECT_DIR$/Прототипы, наследование/8.1Прототипное наследование.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Свойства объекта, их конфигурация/7.1Флаги и дескрипторы свойств.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homeWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeWork.js" afterDir="false" />
     </list>
@@ -48,6 +50,7 @@
     &quot;Node.js.5.12JSONtoJSON.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.5.9 Object.keys,values,entries.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.5.9ДеструктурирующееПрисваивание.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.7.1Флаги и дескрипторы свойств.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.DateAndTime.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.Objects4.1.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.codewars.js.executor&quot;: &quot;Run&quot;,
@@ -61,6 +64,7 @@
     &quot;Node.js.Методы массивов5.5.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.Остаточные параметры и оператор расширения.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.Перебираемые объекты 5.6.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Прототипное наследование.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -80,11 +84,11 @@
       <recent name="C:\Users\Александр\Documents\learn.js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.homeWork.js">
-    <configuration name="Остаточные параметры и оператор расширения.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Продвинутая работа с функциями/Остаточные параметры и оператор расширения.js" working-dir="$PROJECT_DIR$/Продвинутая работа с функциями">
+  <component name="RunManager" selected="Node.js.8.1Прототипное наследование.js">
+    <configuration name="7.1Флаги и дескрипторы свойств.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Свойства объекта, их конфигурация/7.1Флаги и дескрипторы свойств.js" working-dir="$PROJECT_DIR$/Свойства объекта, их конфигурация">
       <method v="2" />
     </configuration>
-    <configuration name="ЗадачиОтGpt.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Продвинутая работа с функциями/ЗадачиОтGpt.js" working-dir="$PROJECT_DIR$/Продвинутая работа с функциями">
+    <configuration name="8.1Прототипное наследование.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Прототипы, наследование/8.1Прототипное наследование.js" working-dir="$PROJECT_DIR$/Прототипы, наследование">
       <method v="2" />
     </configuration>
     <configuration name="codewars29.03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codewars29.03.js" working-dir="$PROJECT_DIR$">
@@ -98,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.8.1Прототипное наследование.js" />
+        <item itemvalue="Node.js.7.1Флаги и дескрипторы свойств.js" />
         <item itemvalue="Node.js.homeWork.js" />
         <item itemvalue="Node.js.codewars29.03.js" />
         <item itemvalue="Node.js.codewars.js" />
-        <item itemvalue="Node.js.ЗадачиОтGpt.js" />
-        <item itemvalue="Node.js.Остаточные параметры и оператор расширения.js" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +164,10 @@
       <workItem from="1774782658435" duration="8869000" />
       <workItem from="1774878275248" duration="32000" />
       <workItem from="1775464582745" duration="11149000" />
+      <workItem from="1775578307229" duration="252000" />
+      <workItem from="1775837902932" duration="5449000" />
+      <workItem from="1776498693002" duration="7045000" />
+      <workItem from="1776533694177" duration="3075000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />

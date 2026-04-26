@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="29.03Learnjs">
-      <change afterPath="$PROJECT_DIR$/Прототипы, наследование/8.1Прототипное наследование.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Свойства объекта, их конфигурация/7.1Флаги и дескрипторы свойств.js" afterDir="false" />
+    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="19.04Learnjs">
+      <change afterPath="$PROJECT_DIR$/30ЗадачСodeWars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/5.9 Object.keys,values,entries.js" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/5.9 Object.keys,values,entries.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,58 +32,62 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="38YTG49nebjvbXf51RMUDF7tiqH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.3.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.5.11DateAndTime.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.5.12JSONtoJSON.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.5.9 Object.keys,values,entries.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.5.9ДеструктурирующееПрисваивание.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.7.1Флаги и дескрипторы свойств.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.DateAndTime.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Objects4.1.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.codewars.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.codewars29.03.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.homeWork.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.objects4.5 - 4.8.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.objects4.5.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.setTimeoutsetInterval.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.ЗадачиОтGpt.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Методы массивов5.5.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Остаточные параметры и оператор расширения.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Перебираемые объекты 5.6.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Прототипное наследование.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Александр/Documents/learn.js&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.3.js.executor": "Run",
+    "Node.js.30ЗадачСodeWars.js.executor": "Run",
+    "Node.js.5.11DateAndTime.js.executor": "Run",
+    "Node.js.5.12JSONtoJSON.js.executor": "Run",
+    "Node.js.5.9 Object.keys,values,entries.js.executor": "Run",
+    "Node.js.5.9ДеструктурирующееПрисваивание.js.executor": "Run",
+    "Node.js.7.1Флаги и дескрипторы свойств.js.executor": "Run",
+    "Node.js.DateAndTime.js.executor": "Run",
+    "Node.js.Objects4.1.js.executor": "Run",
+    "Node.js.codewars.js.executor": "Run",
+    "Node.js.codewars29.03.js.executor": "Run",
+    "Node.js.homeWork.js.executor": "Run",
+    "Node.js.objects4.5 - 4.8.js.executor": "Run",
+    "Node.js.objects4.5.js.executor": "Run",
+    "Node.js.setTimeoutsetInterval.js.executor": "Run",
+    "Node.js.test.js.executor": "Run",
+    "Node.js.ЗадачиОтGpt.js.executor": "Run",
+    "Node.js.Методы массивов5.5.js.executor": "Run",
+    "Node.js.Остаточные параметры и оператор расширения.js.executor": "Run",
+    "Node.js.Перебираемые объекты 5.6.js.executor": "Run",
+    "Node.js.Прототипное наследование.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Александр/Documents/learn.js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Александр\Documents\learn.js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.8.1Прототипное наследование.js">
+  <component name="RunManager" selected="Node.js.30ЗадачСodeWars.js">
+    <configuration name="30ЗадачСodeWars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/30ЗадачСodeWars.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="7.1Флаги и дескрипторы свойств.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Свойства объекта, их конфигурация/7.1Флаги и дескрипторы свойств.js" working-dir="$PROJECT_DIR$/Свойства объекта, их конфигурация">
       <method v="2" />
     </configuration>
@@ -94,19 +97,16 @@
     <configuration name="codewars29.03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codewars29.03.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="codewars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codewars.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <configuration name="homeWork.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homeWork.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.30ЗадачСodeWars.js" />
         <item itemvalue="Node.js.8.1Прототипное наследование.js" />
         <item itemvalue="Node.js.7.1Флаги и дескрипторы свойств.js" />
         <item itemvalue="Node.js.homeWork.js" />
         <item itemvalue="Node.js.codewars29.03.js" />
-        <item itemvalue="Node.js.codewars.js" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +168,9 @@
       <workItem from="1775837902932" duration="5449000" />
       <workItem from="1776498693002" duration="7045000" />
       <workItem from="1776533694177" duration="3075000" />
+      <workItem from="1776574797850" duration="4045000" />
+      <workItem from="1776601778775" duration="612000" />
+      <workItem from="1777201343515" duration="7260000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -281,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774792376629</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="19.04Learnjs">
+      <option name="closed" value="true" />
+      <created>1776574820073</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1776574820073</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +307,7 @@
     <MESSAGE value="24.02Learnjs" />
     <MESSAGE value="25.03Learnjs" />
     <MESSAGE value="29.03Learnjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.03Learnjs" />
+    <MESSAGE value="19.04Learnjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.04Learnjs" />
   </component>
 </project>

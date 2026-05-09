@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="19.04Learnjs">
-      <change afterPath="$PROJECT_DIR$/Классы/Классы.js" afterDir="false" />
+    <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="09.05Learnjs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/30ЗадачСodeWars.js" beforeDir="false" afterPath="$PROJECT_DIR$/30ЗадачСodeWars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Прототипы, наследование/8.1Прототипное наследование.js" beforeDir="false" afterPath="$PROJECT_DIR$/Прототипы, наследование/8.1Прототипное наследование.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +177,7 @@
       <workItem from="1778004180243" duration="1216000" />
       <workItem from="1778092339934" duration="4398000" />
       <workItem from="1778230943638" duration="21952000" />
-      <workItem from="1778298544556" duration="5167000" />
+      <workItem from="1778298544556" duration="7021000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -301,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776574820073</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="09.05Learnjs">
+      <option name="closed" value="true" />
+      <created>1778306066290</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1778306066290</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +323,7 @@
     <MESSAGE value="25.03Learnjs" />
     <MESSAGE value="29.03Learnjs" />
     <MESSAGE value="19.04Learnjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.04Learnjs" />
+    <MESSAGE value="09.05Learnjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.05Learnjs" />
   </component>
 </project>

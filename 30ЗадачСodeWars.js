@@ -505,6 +505,154 @@ function runningSum(arr) {
   }, [])
 }
 
-console.log(runningSum([1, 2, 3, 4]))    // [1,3,6,10]
-console.log(runningSum([1, 1, 1, 1, 1])) // [1,2,3,4,5]
-console.log(runningSum([3, 1, 2, 10]))  // [3,4,6,16]
+// console.log(runningSum([1, 2, 3, 4]))    // [1,3,6,10]
+// console.log(runningSum([1, 1, 1, 1, 1])) // [1,2,3,4,5]
+// console.log(runningSum([3, 1, 2, 10]))  // [3,4,6,16]
+
+
+// Задача 24: Разворот числа (6 kyu)
+// Вернуть число, развёрнутое задом наперёд. Знак минуса сохранить.
+//
+// reverseNumber(123)   → 321
+// reverseNumber(-456)  → -654
+// reverseNumber(100)   → 1
+// reverseNumber(0)     → 0
+
+function reverseNumber(n) {
+  const sign = n < 0 ? -1 : 1
+  const reversed = Math.abs(n).toString().split('').reverse().join('')
+  return sign * Number(reversed)
+}
+
+// console.log(reverseNumber(123))   // 321
+// console.log(reverseNumber(-456))  // -654
+// console.log(reverseNumber(100))   // 1
+
+
+// Задача 25: Среднее значение массива (8 kyu)
+// Вернуть среднее арифметическое элементов массива. Если массив пустой — вернуть 0.
+//
+// average([1, 2, 3, 4, 5]) → 3
+// average([1, 1, 1])        → 1
+// average([])               → 0
+
+function average(arr) {
+  if (arr.length === 0) return 0
+  return arr.reduce((acc, n) => acc + n, 0) / arr.length
+}
+
+// console.log(average([1, 2, 3, 4, 5])) // 3
+// console.log(average([1, 1, 1]))        // 1
+// console.log(average([]))               // 0
+
+
+// Задача 26: Является ли число простым (6 kyu)
+// Вернуть true если число простое (делится только на 1 и на себя). n >= 2.
+//
+// isPrime(2)  → true
+// isPrime(3)  → true
+// isPrime(4)  → false
+// isPrime(17) → true
+// isPrime(25) → false
+
+function isPrime(n) {
+  if (n < 2) return false
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) return false
+  }
+  return true
+}
+
+// console.log(isPrime(2))   // true
+// console.log(isPrime(4))   // false
+// console.log(isPrime(17))  // true
+// console.log(isPrime(25))  // false
+
+
+// Задача 27: Сгруппировать по критерию (5 kyu)
+// Принимает массив и функцию-критерий, возвращает объект где ключи — результат функции,
+// значения — массивы элементов с таким результатом.
+//
+// groupBy([1,2,3,4,5,6], n => n % 2 === 0 ? 'even' : 'odd')
+//   → { odd: [1,3,5], even: [2,4,6] }
+//
+// groupBy(['one','two','three'], s => s.length)
+//   → { 3: ['one','two'], 5: ['three'] }
+
+function groupBy(arr, fn) {
+  return arr.reduce((acc, item) => {
+    const key = fn(item)
+    acc[key] ? acc[key].push(item) : acc[key] = [item]
+    return acc
+  }, {})
+}
+
+// console.log(groupBy([1,2,3,4,5,6], n => n % 2 === 0 ? 'even' : 'odd'))
+// console.log(groupBy(['one','two','three'], s => s.length))
+
+
+// Задача 28: Zip двух массивов (5 kyu)
+// Объединить два массива в массив пар. Длина — по наименьшему из двух.
+//
+// zip([1,2,3], ['a','b','c']) → [[1,'a'],[2,'b'],[3,'c']]
+// zip([1,2],   ['a','b','c']) → [[1,'a'],[2,'b']]
+// zip([],      [1,2,3])       → []
+
+function zip(a, b) {
+  return a.slice(0, b.length).map((item, i) => [item, b[i]])
+}
+
+// console.log(zip([1,2,3], ['a','b','c']))  // [[1,'a'],[2,'b'],[3,'c']]
+// console.log(zip([1,2],   ['a','b','c']))  // [[1,'a'],[2,'b']]
+// console.log(zip([],      [1,2,3]))        // []
+
+
+// Задача 29: Капитализация слов (6 kyu)
+// Сделать первую букву каждого слова заглавной, остальные строчными.
+//
+// titleCase('hello world')      → 'Hello World'
+// titleCase('the QUICK brown')  → 'The Quick Brown'
+// titleCase('')                 → ''
+
+function titleCase(str) {
+  return str.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ')
+}
+
+// console.log(titleCase('hello world'))      // 'Hello World'
+// console.log(titleCase('the QUICK brown'))  // 'The Quick Brown'
+// console.log(titleCase(''))                 // ''
+
+
+// Задача 30: Число в римские цифры (6 kyu)
+// Перевести целое число (1–3999) в римскую запись.
+//
+// toRoman(1)    → 'I'
+// toRoman(4)    → 'IV'
+// toRoman(9)    → 'IX'
+// toRoman(40)   → 'XL'
+// toRoman(2024) → 'MMXXIV'
+// toRoman(3999) → 'MMMCMXCIX'
+
+function toRoman(num) {
+  const map = [
+    [1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'],
+    [100,  'C'], [90,  'XC'], [50,  'L'], [40,  'XL'],
+    [10,   'X'], [9,   'IX'], [5,   'V'], [4,   'IV'],
+    [1,    'I']
+  ]
+  return map.reduce((acc, [value, numeral]) => {
+    while (num >= value) {
+      acc += numeral
+      num -= value
+    }
+    return acc
+  }, '')
+}
+
+// console.log(toRoman(1))     // 'I'
+// console.log(toRoman(4))     // 'IV'
+// console.log(toRoman(9))     // 'IX'
+// console.log(toRoman(2024))  // 'MMXXIV'
+// console.log(toRoman(3999))  // 'MMMCMXCIX'
+
+

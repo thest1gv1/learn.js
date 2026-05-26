@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e6f2a8e-e60c-4dbd-9dc8-47b6c6bdf0ca" name="Changes" comment="09.05Learnjs">
+      <change afterPath="$PROJECT_DIR$/Promise/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try cath finnaly/try cath finnaly.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30ЗадачСodeWars.js" beforeDir="false" afterPath="$PROJECT_DIR$/30ЗадачСodeWars.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +58,10 @@
     &quot;Node.js.homeWork.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.objects4.5 - 4.8.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.objects4.5.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.promise.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.setTimeoutsetInterval.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.try cath finnaly.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.ЗадачиОтGpt.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.Классы.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.Методы массивов5.5.js.executor&quot;: &quot;Run&quot;,
@@ -84,11 +87,8 @@
       <recent name="C:\Users\Александр\Documents\learn.js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.30ЗадачСodeWars.js">
+  <component name="RunManager" selected="Node.js.promise.js">
     <configuration name="30ЗадачСodeWars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/30ЗадачСodeWars.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="7.1Флаги и дескрипторы свойств.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Свойства объекта, их конфигурация/7.1Флаги и дескрипторы свойств.js" working-dir="$PROJECT_DIR$/Свойства объекта, их конфигурация">
       <method v="2" />
     </configuration>
     <configuration name="8.1Прототипное наследование.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Прототипы, наследование/8.1Прототипное наследование.js" working-dir="$PROJECT_DIR$/Прототипы, наследование">
@@ -97,16 +97,19 @@
     <configuration name="Классы.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Классы/Классы.js" working-dir="$PROJECT_DIR$/Классы">
       <method v="2" />
     </configuration>
-    <configuration name="homeWork.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homeWork.js" working-dir="$PROJECT_DIR$">
+    <configuration name="promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Promise/promise.js" working-dir="$PROJECT_DIR$/Promise">
+      <method v="2" />
+    </configuration>
+    <configuration name="try cath finnaly.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/try cath finnaly/try cath finnaly.js" working-dir="$PROJECT_DIR$/try cath finnaly">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.promise.js" />
+        <item itemvalue="Node.js.try cath finnaly.js" />
         <item itemvalue="Node.js.30ЗадачСodeWars.js" />
         <item itemvalue="Node.js.Классы.js" />
         <item itemvalue="Node.js.8.1Прототипное наследование.js" />
-        <item itemvalue="Node.js.7.1Флаги и дескрипторы свойств.js" />
-        <item itemvalue="Node.js.homeWork.js" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +180,9 @@
       <workItem from="1778004180243" duration="1216000" />
       <workItem from="1778092339934" duration="4398000" />
       <workItem from="1778230943638" duration="21952000" />
-      <workItem from="1778298544556" duration="7021000" />
+      <workItem from="1778298544556" duration="7734000" />
+      <workItem from="1779605685736" duration="2731000" />
+      <workItem from="1779699735989" duration="14522000" />
     </task>
     <task id="LOCAL-00001" summary="22.01Learnjs">
       <option name="closed" value="true" />
@@ -307,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778306066290</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="09.05Learnjs">
+      <option name="closed" value="true" />
+      <created>1778335137241</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1778335137241</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
